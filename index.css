@@ -1,0 +1,44 @@
+body {
+    background-color: yellowgreen;
+    margin: 0;
+}
+h1 {
+    color: red;
+    animation: animate 6s infinite;
+}
+@keyframes animate{
+    0% {
+        transform: scale(0.5);
+    }
+    25% {
+        transform: scale(1.5);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+p {
+    color: blue;
+}
+.game-container {
+    font: 50px arial;
+}
+.rock {
+    color: yellow;
+    background-color: darkgreen;
+}
+
+.paper{
+    color: red;
+    background-color: blanchedalmond;
+}
+.scissor {
+    color: darkorange;
+    background-color: mintcream;
+}
